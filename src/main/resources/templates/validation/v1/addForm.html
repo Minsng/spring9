@@ -52,7 +52,7 @@
                    th:class="${errors?.containsKey('quantity')} ? 'form-control field-error' : 'form-control'"
                    class="form-control" placeholder="수량을 입력하세요">
             <div class="field-error" th:if="${errors?.containsKey('quantity')}" th:text="${errors['quantity']}">
-                상품명 오류
+                수량 오류
             </div>
         </div>
 
